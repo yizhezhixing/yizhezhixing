@@ -1,9 +1,103 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.6">
   <diagram name="第 1 页" id="xAYFOKrb2QmvivIo7eho">
-    <mxGraphModel>
+    <mxGraphModel dx="1866" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BTzateQKtIyurhF0B4lp-12" value="Clarify Card Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=15;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-1" target="BTzateQKtIyurhF0B4lp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-1" value="Receive" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-2" value="Use Card" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" edge="1" parent="1" target="BTzateQKtIyurhF0B4lp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="190" as="sourcePoint" />
+            <mxPoint x="120" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-6" value="Card Data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-21" value="Find Hand Card" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-13" target="BTzateQKtIyurhF0B4lp-16">
+          <mxGeometry x="0.009" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="435" />
+              <mxPoint x="460" y="435" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-13" value="Card System" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="450" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-15" value="Use Card information" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.338;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-6" target="BTzateQKtIyurhF0B4lp-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-16" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;Hand&lt;/div&gt;Card" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-25" value="Card Funtion" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-17" target="BTzateQKtIyurhF0B4lp-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-17" value="Card Function&lt;div style=&quot;font-size: 15px;&quot;&gt;Pool&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="655" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-20" value="Find Function" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-13" target="BTzateQKtIyurhF0B4lp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-28" value="Final Card Use Information" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-22" target="BTzateQKtIyurhF0B4lp-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-22" value="Merge" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-23" value="Hand Card&lt;div style=&quot;font-size: 15px;&quot;&gt;Data&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-16" target="BTzateQKtIyurhF0B4lp-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-26" value="Deal" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="880" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-29" value="Deal in&lt;div style=&quot;font-size: 15px;&quot;&gt;Game&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="980" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-30" value="Deal with&lt;div style=&quot;font-size: 15px;&quot;&gt;Database&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="470" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-32" value="Raw FeedBack" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.421;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.054;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-26" target="BTzateQKtIyurhF0B4lp-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="290" as="sourcePoint" />
+            <mxPoint x="800" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="307" />
+              <mxPoint x="880" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-34" value="Card Alteration" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-26" target="BTzateQKtIyurhF0B4lp-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="350" as="sourcePoint" />
+            <mxPoint x="1010" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-35" value="Feedback&lt;div style=&quot;font-size: 15px;&quot;&gt;info to Player&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="250" as="sourcePoint" />
+            <mxPoint x="1240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTzateQKtIyurhF0B4lp-36" value="Feedback info&lt;div style=&quot;font-size: 15px;&quot;&gt;to DataSystem&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BTzateQKtIyurhF0B4lp-30">
+          <mxGeometry x="0.0033" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="380" as="sourcePoint" />
+            <mxPoint x="1300" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
