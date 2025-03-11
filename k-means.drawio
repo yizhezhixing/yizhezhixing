@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qomddrIA614ZR-gxxKsT-59" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="860" height="470" as="geometry" />
+        </mxCell>
         <mxCell id="qomddrIA614ZR-gxxKsT-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="580" width="80" height="40" as="geometry" />
         </mxCell>
@@ -93,17 +96,41 @@
         <mxCell id="qomddrIA614ZR-gxxKsT-41" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="585" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qomddrIA614ZR-gxxKsT-42" value="K-means Caculator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qomddrIA614ZR-gxxKsT-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomddrIA614ZR-gxxKsT-42" target="qomddrIA614ZR-gxxKsT-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-42" value="K-means Caculator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="290" y="330" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qomddrIA614ZR-gxxKsT-43" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="650" y="260" width="230" height="370" as="geometry" />
+        <mxCell id="qomddrIA614ZR-gxxKsT-43" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="230" height="380" as="geometry" />
         </mxCell>
         <mxCell id="qomddrIA614ZR-gxxKsT-49" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=15;" vertex="1" parent="1">
           <mxGeometry x="490" y="340" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qomddrIA614ZR-gxxKsT-50" value="Read Embedding Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qomddrIA614ZR-gxxKsT-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomddrIA614ZR-gxxKsT-50" target="qomddrIA614ZR-gxxKsT-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-50" value="Read Embedding Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="691.25" y="300" width="147.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomddrIA614ZR-gxxKsT-51" target="qomddrIA614ZR-gxxKsT-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-51" value="Elbow Method &amp;amp; Silhouette Score" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="190" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomddrIA614ZR-gxxKsT-53" target="qomddrIA614ZR-gxxKsT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-53" value="Select the best K value" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="670" y="460" width="190" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-55" value="K-means clustering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="670" y="539" width="190" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="qomddrIA614ZR-gxxKsT-57" value="Return the Result" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="240" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
