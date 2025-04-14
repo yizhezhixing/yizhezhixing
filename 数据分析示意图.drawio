@@ -142,7 +142,7 @@
         <mxCell id="6o1rjcuHU60eiY54TzUB-48" value="生成词云/&lt;div&gt;热点分析&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="6o1rjcuHU60eiY54TzUB-54">
           <mxGeometry x="20" y="145.6" width="90" height="41.6" as="geometry" />
         </mxCell>
-        <mxCell id="6o1rjcuHU60eiY54TzUB-50" value="结构化JSON" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="6o1rjcuHU60eiY54TzUB-54">
+        <mxCell id="6o1rjcuHU60eiY54TzUB-50" value="结构化为JSON" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="6o1rjcuHU60eiY54TzUB-54">
           <mxGeometry x="20" y="208" width="90" height="41.6" as="geometry" />
         </mxCell>
         <mxCell id="6o1rjcuHU60eiY54TzUB-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="6o1rjcuHU60eiY54TzUB-54" source="6o1rjcuHU60eiY54TzUB-45" target="6o1rjcuHU60eiY54TzUB-46">
