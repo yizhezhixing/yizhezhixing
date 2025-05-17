@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
   <diagram name="第 1 页" id="3Kp8i0JoDSzubhwbDo06">
-    <mxGraphModel>
+    <mxGraphModel dx="1182" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2jCuWhPL2X8e9enJjTux-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jCuWhPL2X8e9enJjTux-1" target="2jCuWhPL2X8e9enJjTux-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-1" value="文档读入&lt;div&gt;MinerU+GraphRAG提取&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jCuWhPL2X8e9enJjTux-2" target="2jCuWhPL2X8e9enJjTux-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-2" value="去重&lt;div&gt;词嵌入&lt;/div&gt;&lt;div&gt;FAISS&lt;/div&gt;&lt;div&gt;MNN&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;互选临近&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;合并计算&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;生成新json&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2jCuWhPL2X8e9enJjTux-4" target="2jCuWhPL2X8e9enJjTux-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-4" value="分簇&lt;div&gt;变量矩阵建立-SVD压缩&lt;/div&gt;&lt;div&gt;自适应函数-选簇&lt;/div&gt;&lt;div&gt;生成新json&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-6" value="本体模型&lt;div&gt;读取rdf&lt;/div&gt;&lt;div&gt;训练TransE&lt;/div&gt;&lt;div&gt;输入实体，得到关系分数&lt;/div&gt;&lt;div&gt;选取前几名LLM验证，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;通过的写回&lt;/span&gt;&lt;/div&gt;&lt;div&gt;获得owl与日志&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="420" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-8" value="概念模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="270" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jCuWhPL2X8e9enJjTux-10" target="2jCuWhPL2X8e9enJjTux-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jCuWhPL2X8e9enJjTux-10" target="2jCuWhPL2X8e9enJjTux-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2jCuWhPL2X8e9enJjTux-10" value="属性推理，格式化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="140" height="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
