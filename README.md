@@ -22,7 +22,9 @@ I'm currently an undergraduate student at **Southwest University**, majoring in 
 ---
 
 ### 📌 Projects
-- 🧠 [GraphRAG-KM](https://github.com/GraphRAG-KM/GraphragKM) — A framework for transforming industrial documents into ontologies and concept models using LLMs and clustering
+- 🧠 [GraphRAG-KM](https://github.com/GraphRAG-KM/GraphragKM) — A framework for transforming industrial documents into ontologies and concept models using LLMs and clustering.  
+  The related research paper has been **accepted** for publication.
+
 
 ---
 
