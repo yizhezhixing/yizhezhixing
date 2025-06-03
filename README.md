@@ -1,16 +1,34 @@
-### Hi there 👋
+### 👋 Hi there! I'm a CS student from SWU
 
-<!--
-**yizhezhixing/yizhezhixing** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm currently an undergraduate student at **Southwest University**, majoring in **Computer Science**.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 About Me
+- 🎓 Class of 2022, Computer Science
+- 💻 Most comfortable with **Python**
+- 📊 Interested in **data analysis** and real-world applications of **SQL**
+- 🖥️ Also familiar with **Qt6** for desktop GUI development
+
+---
+
+### 🔧 Tech Stack
+| Language | Tools & Frameworks      | Skills           |
+|----------|-------------------------|------------------|
+| Python   | Pandas / Matplotlib     | Data analysis    |
+| SQL      | MySQL / SQLite          | Query & modeling |
+| C++      | Qt6                     | GUI development  |
+
+---
+
+### 📌 Projects
+- 🧠 [GraphRAG-KM](https://github.com/GraphRAG-KM/GraphragKM) — A framework for transforming industrial documents into ontologies and concept models using LLMs and clustering
+
+---
+
+### 📫 How to reach me
+- GitHub: [github.com/yizhezhixing](https://github.com/yizhezhixing)
+
+---
+
+*“Simplicity is the soul of efficiency.” – Austin Freeman*
